@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>YouTube-Clone</title>
+    
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+
+<body>
+
+    <div class="header">
+
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <a href="#">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </a>
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search..">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-button">
+                    <img class="voice-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your sweet voice</div>
+                </button>
+        </div>
+
+        <div class="right-section">
+
+            <a href="https://www.youtube.com/upload">
+           <div class="upload-container">
+             <img class="upload-icon" src="icons/upload.svg">
+            <div class="tooltip">Upload</div>
+           </div>
+            </a>
+
+           <div class="apps-container">
+             <img class="apps-icon" src="icons/youtube-apps.svg">
+             <div class="tooltip">YouTube apps</div>
+           </div>
+
+           <div class="noti-container">
+            <div class="noti-icon-container">
+             <img class="noti-icon" src="icons/notifications.svg">
+              <div class="tooltip">Notifications</div>
+                <div class="noti-count">
+                    3
+                </div>
+            </div>
+           </div>
+
+               <div class="pfp-container" >
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img class="pfp-icon" src="channel-pictures/pfp.png">
+                </a>
+                <div class="tooltip"> &#129781 </div> 
+               </div>      
+            </div>
+        </div>
+
+
+
+    <div class="sidebar">
+
+        <a href="#">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+        </a>
+
+        <a href="https://www.youtube.com/feed/explore">
+        <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        </a>
+
+        <a href="https://www.youtube.com/feed/subscriptions">
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ">
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        </a>
+
+        <a href="https://music.youtube.com/">
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        </a>
+
+        <a href="https://www.youtube.com/feed/library">
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>Library</div>
+        </div>
+        </a>
+
+
+    </div>
+
+
+
+    <section class="video-grid">
+
+        <div class="video-preview">
+
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="">
+                <div class="thumbnail-row"> 
+                <img class="thumbnail" src="thumbnails/thumbnail1.jpg" alt="">
+
+                <div class="video-time">
+                    14:20
+                </div>
+            </a>
+        </div>
+            
+
+    
+            <div class="video-info-grid">
+                
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/mkbhd">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-1.jpg">
+                    </a>
+                </div>
+    
+                <div class= "video-info" >
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/c/mkbhd">
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    </a>
+                
+                    <p class="video-stats">
+                        3.4M views · 6 months ago
+                    </p>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+    
+        <div class="video-preview">
+    
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiBqtH2nef6AhWS43MBHfsvArEQtwJ6BAgNEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmP0RAo9SKZk&usg=AOvVaw2Vf0NXi_w_ypnyRHMRYMAq">
+            <div class="thumbnail-row">
+
+                <img class="thumbnail" src="thumbnails/thumbnail2.jpg" alt="">
+                
+                <div class="video-time">
+                    8:22
+                </div>
+            </a>
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/c/markiplier">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-2.jpg">
+                </div>
+                </a>
+    
+                    <div class="video-info">
+                        
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiBqtH2nef6AhWS43MBHfsvArEQtwJ6BAgNEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmP0RAo9SKZk&usg=AOvVaw2Vf0NXi_w_ypnyRHMRYMAq">   
+                        <p class="video-title">
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/c/markiplier">
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            19M views · 4 years ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            
+            <a href="https://www.youtube.com/watch?v=qNKA9Q60K10">
+            <div class="thumbnail-row"> 
+                <img class="thumbnail" src="thumbnails/thumbnail3.jpg" alt="">
+
+                <div class="video-time">
+                    44:32
+                </div>
+            </a>
+            </div>
+    
+            <div class="video-info-grid">
+
+                <a href="https://www.youtube.com/c/HowToBeatYT">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-5.jpg">
+                </div>
+                </a>
+    
+                <div class= "video-info" >
+                    
+                    <a href="https://www.youtube.com/watch?v=qNKA9Q60K10">
+                    <p class="video-title">
+                        How To Beat Every DEATH GAME In "SQUID GAME"
+                    </p>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/c/HowToBeatYT">
+                    <p class="video-author">
+                        HOW TO BEAT
+                    </p>
+                    </a>
+                
+                    <p class="video-stats">
+                        27M views &middot; 1 year ago
+                    </p>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            
+            <a href="https://www.youtube.com/watch?v=T6Ce0HZ8ZHw">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail5.jpg" alt="">
+                
+                <div class="video-time">
+                    19:26
+                </div>
+            </a>     
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/user/KSIOlajidebtHD">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-4.jpg">
+                </div>
+                </a>
+    
+                    <div class="video-info">
+                        
+                        <a href="https://www.youtube.com/watch?v=T6Ce0HZ8ZHw">
+                        <p class="video-title">
+                            I Couldn't Stop Laughing
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/user/KSIOlajidebtHD">
+                        <p class="video-author">
+                            JJ Olatunji
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            7.2M views &middot; 2 month ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            
+            <a href="https://www.youtube.com/watch?v=qnMA6fZwKC4">
+            <div class="thumbnail-row"> 
+                <img class="thumbnail" src="thumbnails/thumbnail4.jpg" alt="">
+
+                <div class="video-time">
+                    18:56
+                </div>
+            </a>
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/c/NerdExplains">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-3.jpg">   
+                </div>
+                </a>
+    
+                <div class= "video-info" >
+                    
+                    <a href="https://www.youtube.com/watch?v=qnMA6fZwKC4">
+                    <p class="video-title">
+                        How to Beat the ARMORED ALIENS in "A QUIET PLACE: PART 2"
+                    </p>
+                    </a>
+                
+                    <a href="https://www.youtube.com/c/NerdExplains">
+                    <p class="video-author">
+                        Nerd Explains
+                    </p>
+                    </a>
+                
+                    <p class="video-stats">
+                        2.4M views &middot; 1 year ago
+                    </p>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            
+            <a href="https://www.youtube.com/watch?v=j4t2RMDRjnE">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail6.jpg" alt="">
+
+                <div class="video-time">
+                    1:27:46
+                </div>
+            </a>
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/c/thekubzscouts">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-6.jpg">
+                </div>
+                </a>
+    
+                    <div class="video-info">
+
+                        <a href="https://www.youtube.com/watch?v=j4t2RMDRjnE">
+                        <p class="video-title">
+                            IM LOOKING RESPECTFULLY BUT THE HIGH PITCHED SCREAMS ARE SO NASTY|Resident Evil Village [1]
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/c/thekubzscouts">
+                        <p class="video-author">
+                            Kubz Scouts
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            1.4M views &middot; 1 year ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="video-preview">
+            <a href="https://www.youtube.com/watch?v=Bc3LGVi5Sio">
+            <div class="thumbnail-row">
+
+                <img class="thumbnail" src="thumbnails/thumbnail7.jpg" alt="">
+                
+                <div class="video-time">
+                    18:59
+                </div>
+            </a>   
+            </div>
+    
+            <div class="video-info-grid">
+    
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/LinusTechTips">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-7.jpg"> 
+                    </a>                 
+                </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=Bc3LGVi5Sio">
+                        <p class="video-title">
+                            Nvidia tried so hard to stop this - GPU Sharing with Virtual Machines
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/c/LinusTechTips">
+                        <p class="video-author">
+                            Linus Tech Tips
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            1.6M views · 9 months ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="video-preview">
+
+            <a href="https://youtu.be/G3e-cpL7ofc">
+            <div class="thumbnail-row">
+
+                <img class="thumbnail" src="thumbnails/thumbnail8.jpg" alt="">
+                
+                <div class="video-time">
+                    6:31:23
+                </div>
+            </a>
+            </div>
+    
+            <div class="video-info-grid">
+                <a href="https://www.youtube.com/c/SuperSimpleDev">
+                <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-pic-8.jpg">
+                </div>
+                </a>
+    
+                    <div class="video-info">
+                        
+                        <a href="https://youtu.be/G3e-cpL7ofc">
+                        <p class="video-title">
+                            HTML & CSS Full Course - Beginner to Pro (2022)
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/c/SuperSimpleDev">
+                        <p class="video-author">
+                            SuperSimpleDev
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            2M views · 8 months ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="video-preview">
+    
+            <div class="thumbnail-row">
+                
+                <a href="https://www.youtube.com/watch?v=CmUb9sDS9zw">
+                <img class="thumbnail" src="thumbnails/thumbnail9.jpg" alt="">
+                
+                <div class="video-time">
+                    31:08
+                </div>
+                </a>
+                
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/c/GamersNexus">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-9.jpg">
+                </div>
+                </a>
+    
+                    <div class="video-info">
+                        
+                        <a href="https://www.youtube.com/watch?v=CmUb9sDS9zw">
+                        <p class="video-title">
+                            EVGA Left At the Right Time: NVIDIA RTX 4090 Founders Deep-Dive (Schlieren, 12-Pin, & Pressure)
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/c/GamersNexus">
+                        <p class="video-author">
+                            Gamer Nexus
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            853K views · 4 days ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="video-preview">
+    
+            <div class="thumbnail-row">
+
+                <a href="https://www.youtube.com/watch?v=NNGd3uANaes">
+                <img class="thumbnail" src="thumbnails/thumbnail10.jpg" alt="">
+                
+                <div class="video-time">
+                    3:18
+                </div>
+                </a>
+                
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/channel/UCA3PLfFMuT963D-qGVjAFaw">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-10.jpg">  
+                </div>
+                </a>
+    
+                    <div class="video-info">
+                        
+                        <a href="https://www.youtube.com/watch?v=NNGd3uANaes">
+                        <p class="video-title">
+                            BoyWithUke ft. Oliver Tree - Sick of U (Official Music Video)
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/channel/UCA3PLfFMuT963D-qGVjAFaw">
+                        <p class="video-author">
+                            BoyWithUke &#119136;
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            4M views · 2 weeks ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="video-preview">
+            
+            <a href="https://www.youtube.com/watch?v=hknFCp9lTVc">
+            <div class="thumbnail-row">
+
+                <img class="thumbnail" src="thumbnails/thumbnail11.jpg" alt="">
+                
+                <div class="video-time">
+                    8:23
+                </div>
+            </a>
+                
+            </div>
+    
+            <div class="video-info-grid">
+    
+                <a href="https://www.youtube.com/c/TechReflex">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-11.jpg">
+                </div>
+                </a>
+    
+                    <div class="video-info">
+                        
+                        <a href="https://www.youtube.com/watch?v=hknFCp9lTVc">
+                        <p class="video-title">
+                            Best WIRED Earphones Under ₹2000 in 2022 Compared! [Ft. Sony, KZ, CCA, Moondrop, & More!]
+                        </p>
+                        </a>
+    
+                        <a href="https://www.youtube.com/c/TechReflex">
+                        <p class="video-author">
+                            TechReflex
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            55K views · 7 months ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="video-preview">
+    
+            <div class="thumbnail-row">
+
+                <a href="https://www.youtube.com/watch?v=Z_zzw_uPNSE">
+                <img class="thumbnail" src="thumbnails/thumbnail12.jpg" alt="">
+                
+                <div class="video-time">
+                    8:22
+                </div>
+                </a>
+
+            </div>
+    
+            <div class="video-info-grid">
+                
+                <a href="https://www.youtube.com/c/OptimumTech">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-pic-12.jpg">
+                </div>
+                </a>
+
+    
+                    <div class="video-info">
+                        
+                        <a href="https://www.youtube.com/watch?v=Z_zzw_uPNSE">
+                        <p class="video-title">
+                            How do Gaming Mice This Bad Even Exist?
+                        </p>
+                        </a>
+                        
+                        <a href="https://www.youtube.com/c/OptimumTech">
+                        <p class="video-author">
+                            Optimum Tech
+                        </p>
+                        </a>
+    
+                        <p class="video-stats">
+                            762K views · 1 year ago
+                        </p>
+    
+                    </div>
+    
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="Footer"></footer> 
+</body>
+
+</html>
+
