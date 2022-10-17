@@ -80,7 +80,7 @@
     }
 }
 
-@media (max-width: 555px)  {
+@media (min-width: 100px) and (max-width: 555px){
     .video-grid {
         grid-template-columns: 1fr;
     }
